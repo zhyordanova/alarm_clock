@@ -22,7 +22,7 @@ if not 12 > alarm_hour >= 0 and 60 > alarm_minute >= 0:
 if alarm_minute < 10:
     alarm_minute = '0' + str(alarm_minute)
 
-print(f'Alarm is successful for {alarm_hour}:{alarm_minute} {am_pm.upper()}!')
+print(f'The alarm was set successfully for {alarm_hour}:{alarm_minute} {am_pm.upper()}!')
 
 if am_pm == 'pm':
     alarm_hour += 12
